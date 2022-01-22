@@ -1,1 +1,154 @@
-<mxfile host="app.diagrams.net" modified="2022-01-22T06:39:31.862Z" agent="5.0 (Windows)" version="16.4.3" etag="ZHw0z421LNLos0VFoPgE" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-22T08:23:49.029Z" agent="5.0 (Windows)" etag="fmMZlyx13ICHq3lS3ETY" version="16.4.3" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1185" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="更改储位" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
+          <mxGeometry y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-34" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="PesEr1MudBadnEUVHpRX-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="仓管员是否存在" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="报错：仓管员不存在！" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="320" y="190" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-3" target="PesEr1MudBadnEUVHpRX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-3" value="更新仓储信息：仓库、区域、储位" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="115" y="370" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-5" target="PesEr1MudBadnEUVHpRX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-5" value="更新收货信息：状态（上架）、收货时间、上架时间、创建时间" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="115" y="460" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-7" target="PesEr1MudBadnEUVHpRX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-7" value="更新案件信息：案件id、案件名称、案件编号" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="550" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-9" target="PesEr1MudBadnEUVHpRX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-9" value="更新证物信息：编号类型、唯一码、证物大小、证物总数" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="640" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-11" target="PesEr1MudBadnEUVHpRX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-11" value="更新公证书信息：公证书编号" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="730" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-13" target="PesEr1MudBadnEUVHpRX-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-13" value="更新预警信息：预警类型、预警id、转移时间" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="820" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-19" target="PesEr1MudBadnEUVHpRX-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-19" value="记录预警日志" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="910" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-21" value="更新数据库" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="1000" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-33" target="PesEr1MudBadnEUVHpRX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-33" value="获取旧的证物数据" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-39" target="PesEr1MudBadnEUVHpRX-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-39" value="&lt;div align=&quot;left&quot;&gt;旧预警类型←旧的证物数据&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;新预警类型←新的区域类型/申请出证等场景直接设置&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="708.75" y="90" width="292.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-45" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-40" target="PesEr1MudBadnEUVHpRX-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-47" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-40" target="PesEr1MudBadnEUVHpRX-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-40" value="&lt;div&gt;旧预警类型&lt;/div&gt;&lt;div&gt;是否归属于出证预警类型&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="780" y="180" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-44" target="PesEr1MudBadnEUVHpRX-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="370" />
+              <mxPoint x="860" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-44" value="&lt;div&gt;转换新预警类型：&lt;/div&gt;&lt;div&gt;1.作业预警→出证保管预警-作业&lt;/div&gt;&lt;div&gt;2.保管预警→出证保管预警-保管&lt;/div&gt;&lt;div&gt;2.其他已经归属于出证保管预警的不用转换&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;glass=0;strokeWidth=1;shadow=0;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="270" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-46" target="PesEr1MudBadnEUVHpRX-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1059" y="370" />
+              <mxPoint x="860" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-46" value="&lt;div&gt;直接设置新预警类型：&lt;/div&gt;&lt;div&gt;1.作业预警→作业预警&lt;/div&gt;&lt;div&gt;2.保管预警→保管预警&lt;/div&gt;&lt;div&gt;3.出证保管预警→出证保管预警&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;glass=0;strokeWidth=1;shadow=0;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="947" y="270" width="223" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-48" target="PesEr1MudBadnEUVHpRX-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-48" value="&lt;div&gt;设置预警id→根据新预警类型关联&lt;/div&gt;&lt;div&gt;设置转移时间→now&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="725" y="400" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-55" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-52" target="PesEr1MudBadnEUVHpRX-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-52" value="是否是第一次申请出证" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="820" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-54" value="设置出证时间→now" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-57" target="PesEr1MudBadnEUVHpRX-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-57" value="&lt;div&gt;起始日期 = 已出证 ? 出证日期 : 旧转移日期&lt;br&gt;&lt;/div&gt;&lt;div&gt;进入预警日期 = 起始日期 + (预警设置天数 - 1)&lt;/div&gt;&lt;div&gt;开始日期 = 进入预警日期 &amp;gt; 旧转移日期 ? 进入预警日期 : 旧转移日期&lt;/div&gt;&lt;div&gt;预警天数[start, end) = 新转移日期 - 开始日期&lt;/div&gt;&lt;div&gt;保管费 = charge × 预警天数&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="641.25" y="770" width="367.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-70" target="PesEr1MudBadnEUVHpRX-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-70" value="&lt;div align=&quot;center&quot;&gt;旧证物数据&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;新证物数据&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="769.38" y="680" width="111.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PesEr1MudBadnEUVHpRX-72" target="PesEr1MudBadnEUVHpRX-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-72" value="&lt;div align=&quot;left&quot;&gt;设置日志信息：&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1.开始日期&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;2.预警类型→旧预警类型&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;3.预警id→旧预警id&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;4.操作日志→根据旧预警类型&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;5.证物id&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;6.预警天数&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;7.保管费&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="743.75" y="890" width="162.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="PesEr1MudBadnEUVHpRX-74" value="&lt;div align=&quot;center&quot;&gt;插入数据库&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;rounded=1;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="765" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
