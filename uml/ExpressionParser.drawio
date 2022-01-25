@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T05:00:54.789Z" agent="5.0 (Windows)" etag="w2pvIuvpOlKdHMQ__OgL" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-25T04:44:13.506Z" agent="5.0 (Windows)" etag="rxQyF_7b4YqBZJ0FvyXz" version="16.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2249" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="40" y="60" width="400" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rvsYYLUl151u58Pg1d56-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Expression&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getExpressionString(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getValue(): Object&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getValueType(): Class&amp;lt;?&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getValueTypeDescriptor(): TypeDescriptor&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ isWritable(Object): boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setValue(Object, Object)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="760" y="150" width="320" height="140" as="geometry" />
+          <mxGeometry x="480" y="150" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="rvsYYLUl151u58Pg1d56-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;fontStyle=1" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rvsYYLUl151u58Pg1d56-3" target="rvsYYLUl151u58Pg1d56-4">
           <mxGeometry relative="1" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry x="250" y="30" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rvsYYLUl151u58Pg1d56-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ParserContext&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ isTemplate(): boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getExpressionPrefix(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getExpressionSuffix(): String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-400" y="130" width="240" height="90" as="geometry" />
+          <mxGeometry x="-250" y="150" width="240" height="90" as="geometry" />
         </mxCell>
         <mxCell id="rvsYYLUl151u58Pg1d56-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TemplateAwareExpressionParser&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ parseExpression(String): Expression&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ parseExpression(String, ParserContext): Expression&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- parseTemplate(String, ParserContext): Expression&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# doParseExpression(String, ParserContext): Expression&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="180" width="400" height="110" as="geometry" />
@@ -59,6 +59,12 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-50" y="530" as="sourcePoint" />
             <mxPoint x="110" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rvsYYLUl151u58Pg1d56-20" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontFamily=Lucida Console;fontSize=16;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rvsYYLUl151u58Pg1d56-15" target="rvsYYLUl151u58Pg1d56-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="580" as="sourcePoint" />
+            <mxPoint x="320" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
