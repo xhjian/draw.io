@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T07:10:53.198Z" agent="5.0 (Windows)" version="16.4.3" etag="zQck8bWw9yVEJelHGqYA" type="github"><diagram id="zt4YXZDj3ebWZkLGR2Uf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-26T07:27:22.890Z" agent="5.0 (Windows)" etag="SJn-DZrJtjJMXXxHda1c" version="16.4.3" type="github">
+  <diagram id="zt4YXZDj3ebWZkLGR2Uf" name="第 1 页">
+    <mxGraphModel dx="981" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V2MXyOC1h-E540Byc325-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;HttpServlet&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ service(ServletRequest, ServletResponse)&lt;br&gt;# service(HttpServletRequest, HttpServletResponse)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# doGet(HttpServletRequest, HttpServletResponse)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# doHead(HttpServletRequest, HttpServletResponse)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# doPost(HttpServletRequest, HttpServletResponse)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# doPut(HttpServletRequest, HttpServletResponse)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# doDelete(HttpServletRequest, HttpServletResponse)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# doOptions(HttpServletRequest, HttpServletResponse)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# doTrace(HttpServletRequest, HttpServletResponse)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="214" y="40" width="400" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="V2MXyOC1h-E540Byc325-2" value="Provides an abstract class to be subclassed &#xa;to create an HTTP servlet suitable for a Web site." style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontFamily=Lucida Console;fontSize=12;spacing=2;" vertex="1" parent="1">
+          <mxGeometry x="214" width="400" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
