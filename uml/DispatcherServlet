@@ -1,21 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T07:51:50.582Z" agent="5.0 (Windows)" etag="PHvrYMorwbRfXQ81Znrl" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-26T08:33:42.689Z" agent="5.0 (Windows)" etag="wlKHY5wyRmiS3HxcdcTT" version="16.4.3" type="github">
   <diagram id="zt4YXZDj3ebWZkLGR2Uf" name="第 1 页">
     <mxGraphModel dx="981" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="V2MXyOC1h-E540Byc325-7" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="150" y="259" width="570" height="210" as="geometry" />
+        <mxCell id="V2MXyOC1h-E540Byc325-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="150" y="259" width="570" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="V2MXyOC1h-E540Byc325-4" value="Simple extension of HttpServlet which treats its config parameters &#xa;(init-param entries within the servlet tag in web.xml) as bean properties." style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontFamily=Lucida Console;fontSize=12;fillColor=default;" vertex="1" parent="V2MXyOC1h-E540Byc325-7">
+        <mxCell id="V2MXyOC1h-E540Byc325-4" value="Simple extension of HttpServlet which treats its config parameters &#xa;(init-param entries within the servlet tag in web.xml) as bean properties." style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontFamily=Lucida Console;fontSize=12;fillColor=default;" vertex="1" parent="V2MXyOC1h-E540Byc325-14">
           <mxGeometry width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V2MXyOC1h-E540Byc325-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;HttpServletBean&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ init()&lt;br&gt;# initBeanWrapper(BeanWrapper)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# initServletBean()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# createEnvironment()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;rounded=0;fillColor=none;" vertex="1" parent="V2MXyOC1h-E540Byc325-7">
-          <mxGeometry x="144" y="30" width="240" height="110" as="geometry" />
+        <mxCell id="V2MXyOC1h-E540Byc325-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;HttpServletBean&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- environment: ConfigurableEnvironment&lt;br&gt;- requiredProperties: Set&amp;lt;String&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ init()&lt;br&gt;# initBeanWrapper(BeanWrapper)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# initServletBean()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# createEnvironment()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;rounded=0;fontColor=#000000;fillColor=none;" vertex="1" parent="V2MXyOC1h-E540Byc325-14">
+          <mxGeometry x="119" y="30" width="290" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="V2MXyOC1h-E540Byc325-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Lucida Console;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="V2MXyOC1h-E540Byc325-5">
+        <mxCell id="V2MXyOC1h-E540Byc325-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Lucida Console;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="1" source="V2MXyOC1h-E540Byc325-13">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="40" y="380" as="sourcePoint" />
+            <mxPoint x="414" y="289" as="sourcePoint" />
             <mxPoint x="414" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -27,6 +27,18 @@
         </mxCell>
         <mxCell id="V2MXyOC1h-E540Byc325-2" value="Provides an abstract class to be subclassed &#xa;to create an HTTP servlet suitable for a Web site." style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontFamily=Lucida Console;fontSize=12;spacing=2;" vertex="1" parent="V2MXyOC1h-E540Byc325-3">
           <mxGeometry width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V2MXyOC1h-E540Byc325-11" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Lucida Console;fontSize=12;fontColor=#FF0000;strokeColor=#FF0000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="V2MXyOC1h-E540Byc325-15" target="V2MXyOC1h-E540Byc325-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="404" y="568" as="sourcePoint" />
+            <mxPoint x="404" y="492" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2MXyOC1h-E540Byc325-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FrameworkServlet&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- webApplicationContext: WebApplicationContext&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ refresh()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ onApplicationEvent(ContextRefreshedEvent)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ destroy()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# initWebApplicationContext()&lt;br&gt;# findWebApplicationContext(): WebApplicationContext&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# createWebApplicationContext(ApplicationContext): WebApplicationContext&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# configureAndRefreshWebApplicationContext(ConfigurableWebApplicationContext)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# postProcessWebApplicationContext(ConfigurableWebApplicationContext)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# applyInilializers(ConfigurableWebApplicationContext)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# initFrameworkServlet()&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# onRefresh(ApplicationContext)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# doService(HttpServletRequest, HttpServletResponse)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;rounded=0;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="124" y="510" width="580" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="V2MXyOC1h-E540Byc325-9" value="Base servlet for Spring&#39;s web framework. Provides integration &#xa;with a Spring application context, in a JavaBean-based overall solution." style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;fontFamily=Lucida Console;fontSize=12;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="140" y="480" width="570" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
