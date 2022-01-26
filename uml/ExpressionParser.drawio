@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-25T04:53:59.866Z" agent="5.0 (Windows)" etag="_6a5R2y7gDYYRwNtcyzv" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-26T04:55:28.205Z" agent="5.0 (Windows)" etag="CAc_DQLEkzCHDHfwRzJe" version="16.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2249" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="40" y="60" width="400" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rvsYYLUl151u58Pg1d56-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Expression&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getExpressionString(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getValue(): Object&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getValueType(): Class&amp;lt;?&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getValueTypeDescriptor(): TypeDescriptor&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ isWritable(Object): boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setValue(Object, Object)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="150" width="320" height="140" as="geometry" />
+          <mxGeometry x="540" y="50" width="320" height="140" as="geometry" />
         </mxCell>
         <mxCell id="rvsYYLUl151u58Pg1d56-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;fontSize=16;fontStyle=1" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rvsYYLUl151u58Pg1d56-3" target="rvsYYLUl151u58Pg1d56-4">
           <mxGeometry relative="1" as="geometry" />
@@ -43,7 +43,7 @@
         <mxCell id="rvsYYLUl151u58Pg1d56-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SpelExpressionParser&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- configuration: SpelParserConfiguration&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ parseRaw(String): SpelExpression&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ doParserExpression(String, ParserContext): SpelExpression&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-250" y="360" width="450" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="rvsYYLUl151u58Pg1d56-17" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontFamily=Lucida Console;fontSize=16;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rvsYYLUl151u58Pg1d56-0" target="rvsYYLUl151u58Pg1d56-2">
+        <mxCell id="rvsYYLUl151u58Pg1d56-17" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontFamily=Lucida Console;fontSize=16;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rvsYYLUl151u58Pg1d56-0" target="rvsYYLUl151u58Pg1d56-2">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="540" y="250" as="sourcePoint" />
             <mxPoint x="700" y="250" as="targetPoint" />
@@ -67,14 +67,23 @@
             <mxPoint x="320" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rvsYYLUl151u58Pg1d56-21" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ExpressionContext&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getRootObject(): TypedValue&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getPropertyAccessors(): List&amp;lt;PropertyAccessor&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getConstructorResolvers(): List&amp;lt;ConstructorResolver&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getMethodResolvers(): List&amp;lt;MethodResolver&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getBeanResolver(): BeanResolver&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getTypeLocator(): TypeLocator&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getTypeConverter(): TypeConverter&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getTypeComparator(): TypeComparator&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getOperatorOverloader(): OperatorOVerloader&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setVariable(String, Object)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ lookupVariable(String): Object&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="870" y="220" width="410" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="rvsYYLUl151u58Pg1d56-22" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontFamily=Lucida Console;fontSize=16;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rvsYYLUl151u58Pg1d56-2" target="rvsYYLUl151u58Pg1d56-21">
+        <mxCell id="rvsYYLUl151u58Pg1d56-22" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontFamily=Lucida Console;fontSize=16;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rvsYYLUl151u58Pg1d56-2" target="rvsYYLUl151u58Pg1d56-21">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="860" y="350" as="sourcePoint" />
-            <mxPoint x="1020" y="350" as="targetPoint" />
+            <mxPoint x="920" y="250" as="sourcePoint" />
+            <mxPoint x="1080" y="250" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rvsYYLUl151u58Pg1d56-24" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="932" y="-35" width="410" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="rvsYYLUl151u58Pg1d56-21" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ExpressionContext&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getRootObject(): TypedValue&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getPropertyAccessors(): List&amp;lt;PropertyAccessor&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getConstructorResolvers(): List&amp;lt;ConstructorResolver&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getMethodResolvers(): List&amp;lt;MethodResolver&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getBeanResolver(): BeanResolver&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getTypeLocator(): TypeLocator&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getTypeConverter(): TypeConverter&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getTypeComparator(): TypeComparator&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getOperatorOverloader(): OperatorOVerloader&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setVariable(String, Object)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ lookupVariable(String): Object&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;" vertex="1" parent="rvsYYLUl151u58Pg1d56-24">
+          <mxGeometry y="50" width="410" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="rvsYYLUl151u58Pg1d56-23" value="&lt;div align=&quot;left&quot;&gt;resolve properties, methods, or fields &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;and to help perform type conversion&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=16;" vertex="1" parent="rvsYYLUl151u58Pg1d56-24">
+          <mxGeometry x="15" y="10" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rvsYYLUl151u58Pg1d56-26" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 16px&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;Encapsulates the details of a previously parsed expression string&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=16;fontColor=#000000;fontStyle=0" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="525" width="350" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
