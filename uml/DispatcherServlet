@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-27T09:49:57.631Z" agent="5.0 (Windows)" etag="4E3rebKmFS3Khsv-93xI" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-27T09:57:51.856Z" agent="5.0 (Windows)" etag="bU-SPt-y6azNpQ_Yv-ff" version="16.4.3" type="github">
   <diagram id="zt4YXZDj3ebWZkLGR2Uf" name="第 1 页">
-    <mxGraphModel dx="1580" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1094" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -176,6 +176,15 @@
         </mxCell>
         <mxCell id="V2MXyOC1h-E540Byc325-59" value="&lt;b&gt;&lt;font color=&quot;#FF0000&quot;&gt;MultipartResolver&lt;/font&gt;&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontSize=12;fontColor=#000000;fillColor=none;width=140;height=30;" vertex="1" parent="V2MXyOC1h-E540Byc325-60">
           <mxGeometry width="1740" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="V2MXyOC1h-E540Byc325-63" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1160" y="630" width="420" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="V2MXyOC1h-E540Byc325-61" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;HandlerMapping&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getHandler(HttpServletRequest): HandlerExecutionChain&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;fontColor=#000000;fillColor=none;" vertex="1" parent="V2MXyOC1h-E540Byc325-63">
+          <mxGeometry y="30" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="V2MXyOC1h-E540Byc325-62" value="Interface to be implemented by objects that &#xa;define a mapping between requests and handler objects." style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;fontSize=12;fontColor=#000000;fillColor=none;" vertex="1" parent="V2MXyOC1h-E540Byc325-63">
+          <mxGeometry width="420" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
