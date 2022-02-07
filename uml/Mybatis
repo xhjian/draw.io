@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-02-07T09:09:29.576Z" agent="5.0 (Windows)" version="16.4.3" etag="UozVbL3bT29PRV2Re-v9" type="github"><diagram id="8Lhf4I2BaO9RL0CAslhF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-07T09:45:24.386Z" agent="5.0 (Windows)" etag="oLbBsL8tvQsPSKtgbqik" version="16.4.3" type="github">
+  <diagram id="8Lhf4I2BaO9RL0CAslhF" name="第 1 页">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5dyEUPFMih4ESr-aAb53-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="270" width="450" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5dyEUPFMih4ESr-aAb53-7" value="" style="group" vertex="1" connectable="0" parent="5dyEUPFMih4ESr-aAb53-3">
+          <mxGeometry width="450" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="5dyEUPFMih4ESr-aAb53-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SqlSessionFactoryBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ build(Reader, String, Properties): SqlSessionFactory&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ build(InputStream, String, Properties): SqlSessionFactory&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ build(Configuration): SqlSessionFactory&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;" vertex="1" parent="5dyEUPFMih4ESr-aAb53-7">
+          <mxGeometry y="20" width="450" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5dyEUPFMih4ESr-aAb53-2" value="Builds SqlSession instances." style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="5dyEUPFMih4ESr-aAb53-7">
+          <mxGeometry x="110" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5dyEUPFMih4ESr-aAb53-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry width="500" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="5dyEUPFMih4ESr-aAb53-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Resources&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- resourceLoaderWrapper: ClassLoaderWrapper&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- charset: Charset&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getResourceURL(ClassLoader, String): URL&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getResourceAsStream(ClassLoader, String): InputStream&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getResourceAsProperties(ClassLoader, String): Properties&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getResourceAsReader(ClassLoader, String): Reader&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getResourceAsFile(ClassLoader, String): File&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getUrlAsStream(String): InputStream&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getUrlAsReader(String): Reader&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getUrlAsProperties(String): Properties&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ classForName(String): Class&amp;lt;?&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;" vertex="1" parent="5dyEUPFMih4ESr-aAb53-6">
+          <mxGeometry x="30" y="20" width="440" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="5dyEUPFMih4ESr-aAb53-5" value="A class to simplify access to resources through the classloader." style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="5dyEUPFMih4ESr-aAb53-6">
+          <mxGeometry width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5dyEUPFMih4ESr-aAb53-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# configuration: Configuration&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# typeAliasRegistry: TypeAliasRegistry&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# typeHandlerRegistry: TypeHandlerRegistry&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="20" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5dyEUPFMih4ESr-aAb53-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;BaseBuilder&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- parsed: boolean&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- parser: XPathParser&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- environment: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- localReflectorFactory: ReflectorFactory&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ parse(): Configuration&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Lucida Console;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="260" width="320" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
